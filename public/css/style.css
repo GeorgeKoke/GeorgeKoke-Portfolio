@@ -1,7 +1,58 @@
+
+/* Color Swatches */
+:root{
+  --dark: #023246;
+  --medium: #d4d4ce;
+  --light:#f6f6f6;
+  --accent: #75BF7A;
+  --primary:#287094;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
-  background-color: #808080;
+  background-color: var(--medium);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-h1{
-  font-size: 2rem;
-  color: white;
+
+.container-fluid{
+  padding: 0;
+  margin: 0;
 }
+
+/* HERO */
+.hero{
+  background-color: var(--dark);
+  color: var(--light);
+  text-align: center;
+  height: 20rem;
+}
+.r-hero{
+  height: 50%;
+  justify-content: center;
+}
+#img-hero{
+  background-color: var(--primary);
+  height: 8rem;
+  width: 8rem;
+  border: solid 0.25rem var(--light);
+  border-radius: 100%;
+}
+.r-hero > h2{
+  color: var(--accent);
+}
+
+.about{
+  background-color: var(--light);
+  color: var(--dark);
+  text-align: center;
+  border-radius: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+

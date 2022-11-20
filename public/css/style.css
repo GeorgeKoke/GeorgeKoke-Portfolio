@@ -23,7 +23,7 @@ body{
   margin: 0;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero{
   background-color: var(--dark);
   color: var(--light);

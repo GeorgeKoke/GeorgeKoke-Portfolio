@@ -33,21 +33,26 @@ body{
   border: solid 0.25rem var(--light);
   border-radius: 100%;
 }
+h2{
+  margin-bottom: 2rem;
+}
 .r-hero > h2{
   color: var(--accent);
 }
 
 /* SECTIONS */
-.sections{
+.sections-wrap{
   padding: 1.5rem;
 }
 
-.about{
+.sections{
   background-color: var(--light);
   border-radius: 1rem;
+  margin-bottom: 2rem;
   padding: 1.5rem;
   color: var(--dark);
   text-align: center;
+  min-height: 20rem;
 }
 article{
   text-align: justify;

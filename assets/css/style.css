@@ -92,11 +92,11 @@ article{
   background-color: var(--border);
 }
 
-.logo-skills:hover{
+.r-skills:hover > .logo-skills{
   height: 5rem;
   border-radius: 0%;
 }
-.logo-skills:hover + .c-skills{
+.r-skills:hover > .c-skills{
   border-radius: 0.75rem;
   background-color: var(--background);
 }

@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="public/css/style.css">
-  <title>Portafolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/color.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Jorge Contreras Palma | Portafolio</title>
+  <!-- <link rel="icon" href=""> Favicon-->
+  <meta name="theme-color" content="#023246">
+
 </head>
+
 <body>
+  <!-- HEADER -->
   <header class="container-fluid hero">
     <div class="row r-hero">
       <div id="img-hero"></div>
@@ -18,74 +27,213 @@
       <h2 class="subtitle" id="hero-subtitle">Hero Subtitle</h2>
     </div>
   </header>
+
   <!-- SECTIONS -->
-  <div class="container-fluid sections-wrap">
-    <section class="container sections">
+  <main class="container-fluid sections-wrap">
+    <!-- ABOUT ME -->
+    <section class="container sections" id="about">
       <div class="row r-about">
         <h2 class="title" id="about-title">ABOUT ME</h2>
       </div>
       <div class="row r-about">
         <article>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Est nihil consequatur quasi quae nemo distinctio vero expedita aspernatur id iste itaque ea minus omnis architecto, 
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Est nihil consequatur quasi quae nemo distinctio vero expedita aspernatur id iste itaque ea minus omnis
+          architecto,
           temporibus eum animi culpa? Deserunt!
         </article>
       </div>
     </section>
-    <section class="container sections">
-      <div class="row">
+
+    <!-- FRONTEND SKILLS -->
+    <section class="container sections" id="frnd-skills">
+      <div class="col-12">
         <h2 class="title" id="skills-title">FRONTEND SKILLS</h2>
       </div>
-      <div class="row r-skills">
-        <div class="col-auto">
-          <img src="public/img/HTML-LOGO.png" class="logo-skills" />
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col-12">
+          <div class="row r-skills html">
+            <img src="assets/img/logos/HTML-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col">
-
+        <div class="col-12">
+          <div class="row r-skills css">
+            <img src="assets/img/logos/CSS-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-12">
+          <div class="row r-skills js">
+            <img src="assets/img/logos/JS-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
-      <div class="row r-skills">
-        <div class="col-auto">
-          <img src="public/img/CSS-LOGO.png" class="logo-skills" />
+      <!-- <div class="col-12">
+        <div class="row">
+          <img src="assets/img/logos/HTML-LOGO.png" class="logo-skills col-1" />
+          <div class="col">Basico - Medio - Avanzado</div>
         </div>
-        <div class="col">
-
-        </div>
+      </div> -->
+      
       </div>
-      <div class="row r-skills">
-        <div class="col-auto">
-          <img src="public/img/JS-LOGO.png" class="logo-skills" />
-        </div>
-        <div class="col">
-
-        </div>
-      </div>
+      
     </section>
-    <section class="container sections">
-      <div class="row r-skills">
-        <h2 class="title" id="skills-title">SKILLS</h2>
+
+    <!-- BACKEND SKILLS -->
+    <section class="container sections" id="bknd-skills">
+      <div class="col-12">
+        <h2 class="title" id="skills-title">BACKEND SKILLS</h2>
       </div>
-      <div class="row r-about">
-        <article>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Est nihil consequatur quasi quae nemo distinctio vero expedita aspernatur id iste itaque ea minus omnis architecto, 
-          temporibus eum animi culpa? Deserunt!
-        </article>
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col-12">
+          <div class="row r-skills nodejs">
+            <img src="assets/img/logos/NODEJS-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row r-skills css">
+            <img src="assets/img/logos/CSS-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row r-skills js">
+            <img src="assets/img/logos/JS-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row r-skills js">
+            <img src="assets/img/logos/JS-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row r-skills js">
+            <img src="assets/img/logos/JS-LOGO.png" class="logo-skills col-1" />
+            <div class="col c-skills">
+              <div class="row skill-bar row-cols-12 ">
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl bg"></div>
+                <div class="col skill-lvl"></div>
+                <div class="col skill-lvl"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
+      
     </section>
-  </div>
+
+    <!-- CONTACT -->
+    <section class="container sections" id="contact">
+      <div class="row">
+        <h2 class="title" id="cont-title">CONTACT</h2>
+      </div>
+      <form>
+        <div class="row">
+          <label for="cont-name" class="form-label">Nombre: </label>
+          <input type="text" id="cont-name" name="name" class="form-control" required>
+        </div>
+        <div class="row">
+          <label for="cont-email" class="form-label">Email: </label>
+          <input type="email" class="form-control" id="cont-email" name="email" placeholder="my@email.com" required>
+        </div>
+        <div class="row">
+          <label for="cont-mje" class="form-label">Mensaje: </label>
+          <textarea class="form-control" id="cont-mje" rows="3"></textarea>
+        </div>
+        <div class="row">
+          <button class="btn btn-primary" type="submit">Enviar!</button>
+        </div>
+      </form>
+    </section>
+
+  </main> <!-- END MAIN SECTION -->
+
+  <!-- FOOTER -->
   <footer class="container-fluid footer">
     <div class="row r-footer">
       <ul>
-        <li><h6>Redes Sociales</h6></li>
-        <li><h6>Github</h6></li>
-        <li><h6>Contacto</h6></li>
+        <li>
+          <h6>Redes Sociales</h6>
+        </li>
+        <li>
+          <h6>Github</h6>
+        </li>
+        <li>
+          <h6>Contacto</h6>
+        </li>
       </ul>
     </div>
   </footer>
- 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

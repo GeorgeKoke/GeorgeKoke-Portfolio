@@ -1,0 +1,32 @@
+:root{
+  --dark: #023246;
+  --medium: #d4d4ce;
+  --light:#f6f6f6;
+  --accent: #75BF7A;
+  --primary:#287094;
+
+  --html: #ffeae8;
+  --html-ac:#ff5012;
+  --css:#def2fe;
+  --css-ac:#0089e9;
+  --js:#fffde7;
+  --js-ac:#ffd90a;
+  --node:#eff8e9;
+  --node-ac:#5bb433;
+}
+.html{
+  --background:var(--html);
+  --border:var(--html-ac);
+}
+.css{
+  --background:var(--css);
+  --border:var(--css-ac);
+}
+.js{
+  --background:var(--js);
+  --border:var(--js-ac);
+}
+.nodejs{
+  --background:var(--node);
+  --border:var(--node-ac);
+}

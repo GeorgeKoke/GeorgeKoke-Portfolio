@@ -2,14 +2,6 @@
   margin: 0;
   padding: 0;
 }
-/* Color Swatches */
-:root{
-  --dark: #023246;
-  --medium: #d4d4ce;
-  --light:#f6f6f6;
-  --accent: #75BF7A;
-  --primary:#287094;
-}
 
 body{
   background-color: var(--medium);
@@ -60,7 +52,6 @@ h2{
   padding: 1.5rem;
   color: var(--dark);
   text-align: center;
-  min-height: 20rem;
 }
 article{
   text-align: justify;
@@ -68,19 +59,46 @@ article{
 
 /* SKILLS */
 .r-skills{
-  height: 10rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  align-items: center;
+  margin: 0;
+  height: 5rem;
+}
+.c-skills{
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 0rem;
+  transition: background-color 0.5s ease, border-radius 0.7s ease;
 }
 .logo-skills{
-  width: 7rem;
+  height: 4rem;
+  width: auto;
+  padding: 0;
+  margin-right: 0.5rem;
+  border: solid 1px var(--border);
   border-radius: 0.75rem;
-  transition: width 0.5s ease, border-radius 0.7s ease;
+  transition: height 0.5s ease, border-radius 0.7s ease;
+}
+.skill-bar{
+  height: 2rem;
+  padding: 0;
+}
+.skill-lvl{
+  margin: 0.25rem;
+  padding: 0;
+  border: solid 1px var(--border);
+  border-radius: 0.3525rem;
+}
+.bg{
+  background-color: var(--border);
 }
 
 .logo-skills:hover{
-  width: 8rem;
+  height: 5rem;
   border-radius: 0%;
+}
+.logo-skills:hover + .c-skills{
+  border-radius: 0.75rem;
+  background-color: var(--background);
 }
 
 /* FOOTER */

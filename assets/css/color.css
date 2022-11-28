@@ -1,9 +1,15 @@
 :root{
   --dark: #023246;
-  --medium: #d4d4ce;
-  --light:#f6f6f6;
-  --accent: #75BF7A;
+  --medium: #e1e2e1;
+  --light:#f5f5f6;
+  --accent: #80e27e;
   --primary:#287094;
+
+  /* --dark: #102027 ;
+  --medium: #37474f;
+  --light:#f5f5f6;
+  --accent: #9ccc64;
+  --primary:#01579b; */
 
   --html: #ffeae8;
   --html-ac:#ff5012;

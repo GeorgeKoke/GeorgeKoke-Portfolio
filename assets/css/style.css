@@ -67,7 +67,7 @@ article{
   height: 4rem;
   padding: 1rem;
   border-radius: 0rem;
-  transition: background-color 0.5s ease, border-radius 0.7s ease;
+  transition: background-color 0.3s ease-out, border-radius 0.7s ease;
 }
 .logo-skills{
   height: 4rem;

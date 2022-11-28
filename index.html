@@ -205,23 +205,26 @@
     <!-- CONTACT -->
     <section class="container sections" id="contact">
       <div class="row">
-        <h2 class="title" id="cont-title">CONTACT</h2>
+        <h2 class="title" id="cont-title">CONTACTO</h2>
       </div>
-      <form>
-        <div class="row">
-          <label for="cont-name" class="form-label">Nombre: </label>
-          <input type="text" id="cont-name" name="name" class="form-control" required>
-        </div>
-        <div class="row">
-          <label for="cont-email" class="form-label">Email: </label>
-          <input type="email" class="form-control" id="cont-email" name="email" placeholder="my@email.com" required>
-        </div>
-        <div class="row">
-          <label for="cont-mje" class="form-label">Mensaje: </label>
-          <textarea class="form-control" id="cont-mje" rows="3"></textarea>
-        </div>
-        <div class="row">
-          <button class="btn btn-primary" type="submit">Enviar!</button>
+      <form action="https://formspree.io/f/mbjbebor" method="POST" class="cont-form">
+        <fieldset>
+          <div class="row form-row">
+            <label for="cont-name" class="form-label">Nombre: </label>
+            <input type="text" id="cont-name" name="name" class="form-control" required>
+          </div>
+          <div class="row form-row">
+            <label for="cont-email" class="form-label">Email: </label>
+            <input type="email" class="form-control" id="cont-email" name="email" placeholder="my@email.com" required>
+          </div>
+          <div class="row form-row">
+            <label for="cont-mje" class="form-label">Mensaje: </label>
+            <textarea class="form-control" id="cont-mje" name="message" rows="3"></textarea>
+          </div>
+          <input type="hidden" name="_subject" id="email-subject" value="Contacto desde Portafolio">
+        </fieldset>
+        <div class="row form-row">
+          <button type="submit" class="btn btn-primary" >Enviar</button>
         </div>
       </form>
     </section>

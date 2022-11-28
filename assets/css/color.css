@@ -11,14 +11,17 @@
   --accent: #9ccc64;
   --primary:#01579b; */
 
-  --html: #ffeae8;
-  --html-ac:#ff5012;
-  --css:#def2fe;
-  --css-ac:#0089e9;
-  --js:#fffde7;
-  --js-ac:#ffd90a;
-  --node:#eff8e9;
-  --node-ac:#5bb433;
+  --html: #ffccbc;
+  --html-ac:#f4511e;
+  --css:#bbdefb;
+  --css-ac:#1e88e5;
+  --js:#ffecb3;
+  --js-ac:#fbc02d;
+  --node:#dcedc8;
+  --node-ac:#7cb342;
+  --boots:#d1c4e9;
+  --boots-ac:#5e35b1;
+
 }
 .html{
   --background:var(--html);
@@ -35,4 +38,8 @@
 .nodejs{
   --background:var(--node);
   --border:var(--node-ac);
+}
+.bootstrap{
+  --background:var(--boots);
+  --border:var(--boots-ac);
 }
